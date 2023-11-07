@@ -1,0 +1,32 @@
+.container{
+    height: 10em;
+    width: 100%;
+    align-items:center;
+   
+    background-color: rgba(2, 138, 143, 0.322);
+background-image: url('../../../public/fondo/logo.png');
+background-repeat:no-repeat;
+background-position: left;
+background-size: 20%;
+
+}
+.container .search{
+    align-items:center;
+    background-color: #470063;
+}   
+.container .navlink {
+    justify-content: center;
+  bottom: -30%;
+    position: relative;
+}
+.navlink .link{
+    justify-content: center;
+    align-content: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(64, 226, 15);
+    background-color: rgba(174, 9, 196, 0.432);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}

@@ -1,0 +1,33 @@
+.cont{
+    display: flex;
+    justify-content: right; 
+margin-right: 9em;
+}
+.cont form{
+height: 3em;
+
+
+}
+.cont .boton{
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(64, 226, 15);
+  background-color: rgba(174, 9, 196, 0.432);
+  height: 3em;
+  margin:0.2em;
+  border-radius: 5px;
+  border: none;
+
+}
+.cont input{
+    background-color: rgba(255, 228, 196, 0.082);
+   color:rgb(64, 226, 15);
+    border: none;
+    height: 3em;
+    width: 15em;
+    border-radius: 5px;
+    margin:0.1em;
+}
+.cont input::placeholder{
+    color:rgba(64, 226, 15, 0.555);  
+}

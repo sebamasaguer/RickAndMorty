@@ -1,0 +1,123 @@
+.conteiner {
+  width: 15em;
+  height:28em;
+  border-radius: 15px;
+  padding: 0.1em;
+   display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+ /* position:relative;
+    padding: 0.2em;*/
+}
+.like{
+  position: relative;
+  right:40%;  
+  top:-28px;
+  background-color: rgba(0, 255, 255, 0.26);
+  color:rgb(10, 10, 10);
+  border-radius: 5px;
+}
+.unlike{
+  position: relative;
+  right:40%;  
+  top:-28px;
+background-color: rgba(163, 100, 16, 0.616);
+border-radius: 5px;
+}
+.cont .button{
+border: none;
+background-image: url('../../../public/fondo/cerrar.png');
+background-repeat: no-repeat;
+background-size: 100%;
+background-color: rgba(0, 255, 255, 0);
+  color:rgb(243, 5, 5);
+  font-size: 20px;
+  cursor: pointer;
+  position: relative;
+  top:0.2em;
+ left: 0.2em;  
+}
+  .cont h2 {
+    font-size:medium;
+    margin:5px;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0) ;
+    color: rgb(64, 226, 15);
+
+  }
+   .cont h2:hover {
+transform: scale(1.1);
+transition: 1s;
+   }
+
+.cont {
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: rgba(255, 51, 0, 0.171);
+  max-width: 100%;
+  max-height: 100%;
+  width: 90%; 
+  overflow:hidden;
+  position: relative;
+  border-style: dotted;
+  border-color: rgba(255, 255, 255, 0.377); 
+ 
+}
+.cont .Link{
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color:rgb(10, 10, 10);
+  text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.911);
+  left: 0.1em;  
+  top:0.1em;
+  border-radius: 5px;
+position: absolute;
+}
+.cont .id{
+  right: 0.3em;  
+  bottom: 7.4em;
+position: absolute;
+background-color: rgba(163, 100, 16, 0.616);
+border-radius: 5px;
+color:rgb(10, 10, 10);
+}
+.image{
+  width: 100%;
+  height: 70%;
+  overflow:hidden;
+  border-radius: 5%;
+}
+.image img{
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5%;
+
+}
+.image img:hover{
+  transform: scale(1.1);
+  transition: 1s;
+} 
+
+
+.cont .name{
+  background-color: rgba(201, 52, 42, 0.829);
+  left: 5px;  
+  top:5px;
+  border-radius: 5px;
+position: absolute;
+}
+.info{
+display: flex;
+
+justify-content: center;
+align-items: center;
+  background-color: rgba(156, 160, 95, 0.829); 
+  margin: 0.2em;
+  width: 90%;
+
+}

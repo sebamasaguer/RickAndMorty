@@ -1,0 +1,26 @@
+.container{
+    display: flexbox;
+
+    margin: 0 auto;
+    max-width: 450px;
+    max-height: 800px;
+    background-color: rgba(137, 43, 226, 0.329);
+border-radius: 10px;
+}
+
+.container .image{
+    background-image: url('../../../public/imageRick.jpg');
+background-repeat: no-repeat;
+background-size: 100%;
+width: 20em;
+height: 20rem;
+border-radius: 100%;
+}
+
+.container .image:hover{
+    background-image: url('../../../public/imageRick1.jpg');
+background-repeat: no-repeat;
+background-size: 100%;
+width: 20em;
+height: 20rem;
+}
